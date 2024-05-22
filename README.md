@@ -1,19 +1,15 @@
-# deep-learning-challenge
+# Deep Learning
 
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
+## Overview of Analysis
+The purpose of this analysis is to help the nonprofit foundation Alphabet Soup create a machine learning and neural network model that will accurately predict whether applicants will be successful if funded by Alphabet Soup.  The dataset included more than 34,000 organizations that have received funding from them over the years.  
 
-The report should contain the following:
+## Results
+* Data Preprocessing
+    * The target column was the "IS_SUCCESSFUL" column in the dataset to determine whether the funding was used effectively and successfully.
+    * The features of the model can include name, application type, affliation, classification, use case, organization, status, income amount, special considerations, and amount asked. These features can be changed to optimize the predictive accuracy of the model.  Not all features needed to be included or used.  However, in order to optimize the model, I used all the features listed above.
+    * The features that were removed from the input data was EIN and possibly names which were both idenfitication columns.  For the first model, both EIN and names were removed from the model.  However, in order to optimize the model for a predictive accuracy above 75% I added back the name column to get it above 75%. 
 
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images to support your answers, address the following questions:
-
-Data Preprocessing
-
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
+* Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
