@@ -29,6 +29,6 @@ Overall, Model 2 did better at predicting charity funding for Alphabet Soup.  It
 
 ## References
 **Resources:** The number of neurons and layers were determined by the general rule of thumb outlined in the following StackExchange post.
--[StackExchange](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
+- [StackExchange](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
 
 
