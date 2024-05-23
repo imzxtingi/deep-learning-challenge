@@ -7,7 +7,7 @@ The purpose of this analysis is to help the nonprofit foundation Alphabet Soup c
 * **Data Preprocessing**
     * The target column was the "IS_SUCCESSFUL" column in the dataset to determine whether the funding was used effectively and successfully.
     * The features of the model can include NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT. These features can be changed to optimize the predictive accuracy of the model.  Not all features needed to be included or used.  However, in order to optimize the model, I used all the features listed above.
-    * The features that were removed from the input data was EIN and possibly names which were both idenfitication columns.  For the first model, both EIN and names were removed from the model.  However, in order to optimize the model for a predictive accuracy above 75% I added back the name column to get it above 75%. 
+    * The features that were removed from the input data was EIN and possibly NAME which were both idenfitication columns.  For the first model, both EIN and NAME were removed from the model.  However, in order to optimize the model for a predictive accuracy above 75% I added back the NAME column to get it above 75% in model 2. 
 
 * **Compiling, Training, and Evaluating the Model - Model 1 (non-optimized)**
      * Model 1 removed NAME and EIN columns from the training and testing data.
